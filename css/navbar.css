@@ -1,0 +1,64 @@
+.navbarr{
+	display: inline;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background:#FDA7DF;
+	height: 60px;
+	width: 100%;
+	margin-bottom: 50px;
+	position:fixed;
+    right:0;
+    top:0;
+}
+	
+
+.nav-logo{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	alignment-baseline: center;
+}
+
+.nav-avatar{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.avatar-pic{
+	height:60px; 
+	width:70px;
+	margin-right: 20px;
+}
+
+#brand{
+	margin-left: 10px;
+	color: #6D214F;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+#list-name{
+	  display: inline-block;
+	  padding: 10px 20px;
+	  margin: 0,10,0,10;
+	  cursor: pointer;
+	  text-align: center;
+	  
+	  outline: none;
+	  background-color:#B53471 ;
+	  border: none;
+	  border-radius: 5px;
+	  height: 15px;
+	  
+}
+
+#list-name:hover{
+  box-shadow: 0 5px #FC427B;
+  transform: translateY(-2px)
+}
+nav ul li a{
+	text-decoration: none;
+	color: #1B1464;
+}

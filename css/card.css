@@ -1,0 +1,90 @@
+.card{
+	border-radius: 20px;
+	border: solid;
+	height: 400px; 
+	width: 300px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
+	margin: 0, auto;
+	background: #CAD3C8;
+	
+}
+
+.imgcard{
+	width: 70%;
+	border-radius: 50px;
+    padding: 5px;
+    margin-bottom: 15px;
+
+
+}
+.text{
+	font-family: 'Comfortaa', cursive, 'Times New Roman', Times, serif;
+	color:#636e72;
+	font-size: 15px;
+	letter-spacing: .2px;
+
+
+}
+#card-title{
+	font-size: 1.12rem;
+	font-weight: 700;
+	letter-spacing: .05rem;
+	margin:0;
+    padding:0;
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+#card-cat{
+	font-weight: 400;
+	color: #464855;
+	margin:0;
+	margin-left: 20px;
+    padding:0;
+    width: 70%;
+	
+}
+
+#contente{
+	font-size: 15px;
+    letter-spacing: .2px;
+    width: 70%;
+    margin-left: : 20;
+    font-style: italic;
+    margin: 0 auto;
+    margin:0,0,0,15;
+    padding:0;
+   
+
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color:#3867d6 ;
+  border: none;
+  border-radius: 15px;
+  height: 15px;
+}
+
+.button:hover {background-color:#0984e3 }
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.img-social{
+	width: 20px;
+	height: 20px;
+}
